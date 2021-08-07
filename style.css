@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'News Cycle', sans-serif;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+.newtown {
+  overflow:hidden;
+  margin-right: 1150px;
+  padding: 7px 10px 140px 10px;
+  background: white;
+  border-top: 6px solid #C8C8C8;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.text1 {
+  float: right;
+  margin: 30px 10px;
+}
+.img1 {
+  float: left;
+  width: 150px;
+  height: 200px;
+  margin-right: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+.img11 {
+  position: absolute;
+  padding: 70px 36px 66px 50px;
+  top: 0px;
+  left: 10px;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+.container1 {
+  position: relative;
+}
+.color1 {
+  margin-left: 20px;
+  color: #666;
+}
+.name1 {
+  margin-left: 20px;
+  color: #0974b3;
+}
+.button1 {
+  position: absolute;
+  color: white;
+  border-style: none;
+  font-family: verdana;
+  font-size: 15px;
+  text-align: center;
+  background: #0974b3;
+  margin: 60px 10px 0px -10px;
+  padding: 35px 100px 35px 110px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  transition: all 0.2s ease;
+}
+.button1:hover {
+  background: #002966;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.newtown:hover {
+  transform: translateY(-10px);
+  border-top: 6px solid #0974b3;
+  transition: 0.2s ease;
+}
+.img11:hover {
+  opacity: 1;
+  transition: 0.1s ease;
+  background: rgba(10,10,10,0.5);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+
+
+.einstein {
+  overflow:hidden;
+  margin-right: 1150px;
+  padding: 7px 10px 120px 10px;
+  background: white;
+  border-top: 6px solid #C8C8C8;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.move {
+  position: relative;
+  left: 372px;
+  top: -728px;
+}
+.text2 {
+  float: right;
+  margin: 30px 10px;
+}
+.img2 {
+  float: left;
+  width: 150px;
+  height: 200px;
+  margin-right: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+.img22 {
+  position: absolute;
+  padding: 70px 36px 66px 50px;
+  top: 0px;
+  left: 10px;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+.container2 {
+  position: relative;
+}
+.color2 {
+  margin-left: 20px;
+  color: #666;
+}
+.name2 {
+  margin-left: 20px;
+  color: #0974b3;
+}
+.button2 {
+  position: absolute;
+  color: white;
+  border-style: none;
+  font-family: verdana;
+  font-size: 15px;
+  text-align: center;
+  background: #0974b3;
+  margin: 40px 10px 0px -10px;
+  padding: 35px 100px 35px 110px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  transition: all 0.2s ease;
+}
+.button2:hover {
+  background: #002966;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.einstein:hover {
+  transform: translateY(-10px);
+  border-top: 6px solid #0974b3;
+  transition: 0.2s ease;
+}
+.img22:hover {
+  opacity: 1;
+  transition: 0.1s ease;
+  background: rgba(10,10,10,0.5);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+
+
+.tesla {
+  overflow:hidden;
+  margin-right: 1150px;
+  padding: 7px 10px 140px 10px;
+  background: white;
+  border-top: 6px solid #C8C8C8;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.move1 {
+  position: relative;
+  left: 745px;
+  top: -1436.5px;
+}
+.text3 {
+  float: right;
+  margin: 30px 10px;
+}
+.img3 {
+  float: left;
+  width: 150px;
+  height: 200px;
+  margin-right: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+.img33 {
+  position: absolute;
+  padding: 70px 36px 66px 50px;
+  top: 0px;
+  left: 10px;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+.container3 {
+  position: relative;
+}
+.color3 {
+  margin-left: 20px;
+  color: #666;
+}
+.name3 {
+  margin-left: 20px;
+  color: #0974b3;
+}
+.button3 {
+  position: absolute;
+  color: white;
+  border-style: none;
+  font-family: verdana;
+  font-size: 15px;
+  text-align: center;
+  background: #0974b3;
+  margin: 60px 10px 0px -10px;
+  padding: 35px 100px 35px 110px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  transition: all 0.2s ease;
+}
+.button3:hover {
+  background: #002966;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.tesla:hover {
+  transform: translateY(-10px);
+  border-top: 6px solid #0974b3;
+  transition: 0.2s ease;
+}
+.img33:hover {
+  opacity: 1;
+  transition: 0.1s ease;
+  background: rgba(10,10,10,0.5);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
